@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/wakaru-sukida/golang-clean-code-architecture/src/config"
-	postgreshandler "github.com/wakaru-sukida/golang-clean-code-architecture/src/infrastructure/database/postgres"
-	sharedcrud "github.com/wakaru-sukida/golang-clean-code-architecture/src/shared/crud"
+	"github.com/max38/golang-clean-code-architecture/src/config"
+	postgreshandler "github.com/max38/golang-clean-code-architecture/src/infrastructure/database/postgres"
+	sharedcrud "github.com/max38/golang-clean-code-architecture/src/shared/crud"
 )
 
 func main() {

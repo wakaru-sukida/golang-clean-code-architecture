@@ -1,11 +1,11 @@
 package main
 
 import (
-	config "github.com/wakaru-sukida/golang-clean-code-architecture/src/config"
-	entities "github.com/wakaru-sukida/golang-clean-code-architecture/src/domain/entities"
-	gofiberserver "github.com/wakaru-sukida/golang-clean-code-architecture/src/infrastructure/gofiber/server"
-	postgresuserrepository "github.com/wakaru-sukida/golang-clean-code-architecture/src/interface/repositories/postgres/user"
-	userusecase "github.com/wakaru-sukida/golang-clean-code-architecture/src/usecases/user"
+	config "github.com/max38/golang-clean-code-architecture/src/config"
+	entities "github.com/max38/golang-clean-code-architecture/src/domain/entities"
+	gofiberserver "github.com/max38/golang-clean-code-architecture/src/infrastructure/gofiber/server"
+	postgresuserrepository "github.com/max38/golang-clean-code-architecture/src/interface/repositories/postgres/user"
+	userusecase "github.com/max38/golang-clean-code-architecture/src/usecases/user"
 )
 
 // @title Training Kawaii Shop API
