@@ -1,0 +1,26 @@
+# Version control and documentation
+.git
+.gitignore
+README.md
+LICENSE
+
+# Environment and secrets
+.env
+.env.*
+!env.example
+
+# Go and build output
+vendor/
+tmp/
+*.log
+*.test
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
